@@ -1,0 +1,203 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 10%;
+    background-color: #1f2937;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header h2 {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    gap: 16px;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-weight: 600;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.content .one {
+    display: flex;
+    height: max-content;
+    flex: 1 1 auto;
+    padding: 8% 10%;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.one div {
+    display: flex;
+    flex-direction: column;
+}
+
+.one h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.one p {
+    font-size: 15px;
+    color: #e5e7eb;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+}
+
+.one button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 125px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.one img {
+    margin-left: auto;
+    width: 600px;
+    height: 300px;
+}
+
+.content .two {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    height: max-content;
+    padding: 8% 10%;
+}
+
+.two h2 {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.two div {
+    display: flex;
+    gap: 5%;
+}
+
+.two p {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-size: 15px;
+}
+
+.two img {
+    margin-bottom: 10px;
+}
+
+.content .three {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 5% 10%;
+    background-color: #e5e7eb;
+}
+
+.three p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.three h5 {
+    margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.content .four {
+    height: max-content;
+    display: flex;
+    padding: 10% 10%;
+    justify-content: center;
+}
+
+.four .container {
+    display: flex;
+    height: max-content;
+    padding: 5% 10%;
+    background-color: #3882f6;
+    border-radius: 8px;
+    align-items: center;
+    gap: 50px;
+}
+
+.container button {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    width: 125px;
+    height: 50px;
+    border-radius: 8px;
+    border-style: solid;
+    color: #e5e7eb;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.container h3 {
+    color: #f9faf8;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+.container p {
+    color: #e5e7eb;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-size: 15px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    font-size: 15px;
+}
